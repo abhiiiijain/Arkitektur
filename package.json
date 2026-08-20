@@ -2,6 +2,9 @@
   "name": "arkitektur",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "dependencies": {
     "axios": "^1.19.0",
     "jquery": "^3.7.1",

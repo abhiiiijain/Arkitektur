@@ -73,7 +73,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-5.png" alt="Icon"/>
                             <h3 className="mb-3">Architecture</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-6.png" alt="Icon"/>
                             <h3 className="mb-3">3D Animation</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-7.png" alt="Icon"/>
                             <h3 className="mb-3">House Planning</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-8.png" alt="Icon"/>
                             <h3 className="mb-3">Interior Design</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-9.png" alt="Icon"/>
                             <h3 className="mb-3">Renovation</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ const Services = () => {
                             <img className="mb-4" src="/img/icons/icon-10.png" alt="Icon"/>
                             <h3 className="mb-3">Construction</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>

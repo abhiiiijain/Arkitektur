@@ -6,7 +6,7 @@ export const AuthContext = createContext();
 export default function AuthProvider(props) {
     const navigate=useNavigate()
     const [userToken,setUserToken]=useState(null)
-    const [userData,setUserData]=useState(null)
+    const [userData]=useState(null)
 // ,,,,,,,,,,,,,,,,,,,,,,,,,,,login start.....................
   const UserLogin=(formdata)=>{
     try{

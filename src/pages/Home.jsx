@@ -122,7 +122,7 @@ const Home = () => {
                             <h3 className="mb-0">Experience</h3>
                         </div>
                     </div>
-                    <a className="btn btn-primary py-3 px-5" href="">Read More</a>
+                    <a className="btn btn-primary py-3 px-5" href="/about/">Read More</a>
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-5.png" alt="Icon"/>
                             <h3 className="mb-3">Architecture</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-6.png" alt="Icon"/>
                             <h3 className="mb-3">3D Animation</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-7.png" alt="Icon"/>
                             <h3 className="mb-3">House Planning</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-8.png" alt="Icon"/>
                             <h3 className="mb-3">Interior Design</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-9.png" alt="Icon"/>
                             <h3 className="mb-3">Renovation</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ const Home = () => {
                             <img className="mb-4" src="/img/icons/icon-10.png" alt="Icon"/>
                             <h3 className="mb-3">Construction</h3>
                             <p className="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                            <a className="btn" href=""><i className="fa fa-plus text-primary me-3"></i>Read More</a>
+                            <a className="btn" href="/about/"><i className="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -300,7 +300,7 @@ const Home = () => {
                                     <p><i className="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Project Management</p>
-                                    <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                    <a href="/about/" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +318,7 @@ const Home = () => {
                                     <p><i className="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Project Management</p>
-                                    <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                    <a href="/about/" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -336,7 +336,7 @@ const Home = () => {
                                     <p><i className="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Project Management</p>
-                                    <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                    <a href="/about/" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +354,7 @@ const Home = () => {
                                     <p><i className="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     <p><i className="fa fa-check text-primary me-3"></i>Project Management</p>
-                                    <a href="" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                    <a href="/about/" className="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -379,9 +379,9 @@ const Home = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-1.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -395,9 +395,9 @@ const Home = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-2.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -411,9 +411,9 @@ const Home = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-3.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -427,9 +427,9 @@ const Home = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-4.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/about/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -489,8 +489,8 @@ const Home = () => {
                             <input type="text" className="form-control" placeholder="Your Mobile" style={{ height: "55px"}}/>
                         </div>
                         <div className="col-12 col-sm-6">
-                            <select className="form-select" style={{ height: "55px"}}>
-                                <option selected>Choose Service</option>
+                            <select className="form-select" defaultValue="" style={{ height: "55px"}}>
+                                <option value="">Choose Service</option>
                                 <option value="1">Service 1</option>
                                 <option value="2">Service 2</option>
                                 <option value="3">Service 3</option>

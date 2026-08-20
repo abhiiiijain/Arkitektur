@@ -45,7 +45,7 @@ const About = () => {
                             <h3 className="mb-0">Experience</h3>
                         </div>
                     </div>
-                    <a className="btn btn-primary py-3 px-5" href="">Read More</a>
+                    <a className="btn btn-primary py-3 px-5" href="/contact/">Read More</a>
                 </div>
             </div>
         </div>
@@ -116,9 +116,9 @@ const About = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-1.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -132,9 +132,9 @@ const About = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-2.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -148,9 +148,9 @@ const About = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-3.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
@@ -164,9 +164,9 @@ const About = () => {
                         <div className="position-relative">
                             <img className="img-fluid" src="/img/team-4.jpg" alt=""/>
                             <div className="team-social text-center">
-                                <a className="btn btn-square" href=""><i className="fab fa-facebook-f"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-twitter"></i></a>
-                                <a className="btn btn-square" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-facebook-f"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-twitter"></i></a>
+                                <a className="btn btn-square" href="/contact/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div className="bg-light text-center p-4">
