@@ -1,8 +1,8 @@
 import React,{useContext} from 'react'
-import { Link } from 'react-router-dom'
-import Login from '../pages/Login'
-import Register from '../pages/Register'
+import { Link, NavLink } from 'react-router-dom'
 import { AuthContext } from '../Context/AuthContext'
+
+const navClass = ({ isActive }) => `nav-item nav-link${isActive ? ' active' : ''}`
 const Header = () => {
     const {Logout}=useContext(AuthContext)
   return (
@@ -18,14 +18,14 @@ const Header = () => {
             </div>
             <div className="col-lg-5 px-5 text-end">
                 <div className="h-100 d-inline-flex align-items-center py-3 me-2">
-                    <a className="text-body px-2" href="">Terms</a>
-                    <a className="text-body px-2" href="">Privacy</a>
+                    <a className="text-body px-2" href="#">Terms</a>
+                    <a className="text-body px-2" href="#">Privacy</a>
                 </div>
                 <div className="h-100 d-inline-flex align-items-center">
-                    <a className="btn btn-sm-square btn-outline-body me-1" href=""><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-sm-square btn-outline-body me-1" href=""><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-sm-square btn-outline-body me-1" href=""><i className="fab fa-linkedin-in"></i></a>
-                    <a className="btn btn-sm-square btn-outline-body me-0" href=""><i className="fab fa-instagram"></i></a>
+                    <a className="btn btn-sm-square btn-outline-body me-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                    <a className="btn btn-sm-square btn-outline-body me-1" href="#"><i className="fab fa-twitter"></i></a>
+                    <a className="btn btn-sm-square btn-outline-body me-1" href="#"><i className="fab fa-linkedin-in"></i></a>
+                    <a className="btn btn-sm-square btn-outline-body me-0" href="#"><i className="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -36,27 +36,25 @@ const Header = () => {
     {/* <!-- Navbar Start --> */}
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <Link to="/" className="navbar-brand ms-4 ms-lg-0">
-            <h1 className="text-primary m-0"><img className="me-3" src="/img/icons/icon-1.png" alt="Icon"/>Arkitektur</h1>
+            <h1 className="text-primary m-0"><img className="me-3" src="/img/icons/icon-1.png" alt="Arkitektur"/>Arkitektur</h1>
         </Link>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <Link to="/" className="nav-item nav-link active">Home</Link>
-                <Link to="/about/" className="nav-item nav-link">About</Link>
-                <Link to="/services/" className="nav-item nav-link">Services</Link>
-               
-                {/* <Link to="/contact/" className="nav-item nav-link">Contact</Link> */}
+                <NavLink to="/" end className={navClass}>Home</NavLink>
+                <NavLink to="/about/" className={navClass}>About</NavLink>
+                <NavLink to="/services/" className={navClass}>Services</NavLink>
 
                 {sessionStorage.getItem("token") ?
                 <>
-                <Link to="/register/" className="nav-item nav-link">Myaccount</Link>
-                <Link onClick={Logout} className="nav-item nav-link">Logout</Link>
+                <NavLink to="/register/" className={navClass}>Myaccount</NavLink>
+                <Link to="/" onClick={Logout} className="nav-item nav-link">Logout</Link>
                 </>:
                 <>
-                <Link to="/register/" className="nav-item nav-link">Register</Link>
-                <Link to="/login/" className="nav-item nav-link">Login</Link>
+                <NavLink to="/register/" className={navClass}>Register</NavLink>
+                <NavLink to="/login/" className={navClass}>Login</NavLink>
                 </>}
 
             </div>

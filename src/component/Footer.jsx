@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,27 +14,27 @@ const Footer = () => {
                     <p className="mb-2"><i className="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
                     <p className="mb-2"><i className="fa fa-envelope text-primary me-3"></i>info@example.com</p>
                     <div className="d-flex pt-2">
-                        <a className="btn btn-square btn-outline-body me-1" href=""><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-square btn-outline-body me-1" href=""><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-square btn-outline-body me-1" href=""><i className="fab fa-youtube"></i></a>
-                        <a className="btn btn-square btn-outline-body me-0" href=""><i className="fab fa-linkedin-in"></i></a>
+                        <a className="btn btn-square btn-outline-body me-1" href="#"><i className="fab fa-twitter"></i></a>
+                        <a className="btn btn-square btn-outline-body me-1" href="#"><i className="fab fa-facebook-f"></i></a>
+                        <a className="btn btn-square btn-outline-body me-1" href="#"><i className="fab fa-youtube"></i></a>
+                        <a className="btn btn-square btn-outline-body me-0" href="#"><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h3 className="text-light mb-4">Services</h3>
-                    <a className="btn btn-link" href="">Architecture</a>
-                    <a className="btn btn-link" href="">3D Animation</a>
-                    <a className="btn btn-link" href="">House Planning</a>
-                    <a className="btn btn-link" href="">Interior Design</a>
-                    <a className="btn btn-link" href="">Construction</a>
+                    <Link className="btn btn-link" to="/services/">Architecture</Link>
+                    <Link className="btn btn-link" to="/services/">3D Animation</Link>
+                    <Link className="btn btn-link" to="/services/">House Planning</Link>
+                    <Link className="btn btn-link" to="/services/">Interior Design</Link>
+                    <Link className="btn btn-link" to="/services/">Construction</Link>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h3 className="text-light mb-4">Quick Links</h3>
-                    <a className="btn btn-link" href="">About Us</a>
-                    <a className="btn btn-link" href="">Contact Us</a>
-                    <a className="btn btn-link" href="">Our Services</a>
-                    <a className="btn btn-link" href="">Terms & Condition</a>
-                    <a className="btn btn-link" href="">Support</a>
+                    <Link className="btn btn-link" to="/about/">About Us</Link>
+                    <Link className="btn btn-link" to="/contact/">Contact Us</Link>
+                    <Link className="btn btn-link" to="/services/">Our Services</Link>
+                    <Link className="btn btn-link" to="/">Terms & Condition</Link>
+                    <Link className="btn btn-link" to="/contact/">Support</Link>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <h3 className="text-light mb-4">Newsletter</h3>
@@ -49,11 +50,11 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <Link to="/">Arkitektur</Link>, All Right Reserved.
                     </div>
                     <div className="col-md-6 text-center text-md-end">
                        
-                        <br/> Distributed By: <a className="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        <br/> Distributed By: <a className="border-bottom" href="https://themewagon.com" target="_blank" rel="noreferrer">ThemeWagon</a>
                     </div>
                 </div>
             </div>

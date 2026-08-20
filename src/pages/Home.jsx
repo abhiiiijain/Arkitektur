@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import SimpleSlider from '../component/SimpleSlider'
 
 const Home = () => {
@@ -19,9 +20,9 @@ const Home = () => {
                                         <strong> Arkitektur</strong>
                                     </p>
                                     <h1 className="display-1 text-white mb-4 animated slideInRight">Best Architecture And Interior Design Services</h1>
-                                    <a href=""
+                                    <Link to="/about/"
                                         className="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore
-                                        More</a>
+                                        More</Link>
                                 </div>
                             </div>
                         </div>
@@ -36,9 +37,9 @@ const Home = () => {
                                     <p className="fs-4 text-white animated slideInLeft">Welcome to <strong> Arkitektur</strong>
                                     </p>
                                     <h1 className="display-1 text-white mb-5 animated slideInLeft">Best Architecture And Interior Design Services</h1>
-                                    <a href=""
+                                    <Link to="/services/"
                                         className="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore
-                                        More</a>
+                                        More</Link>
                                 </div>
                             </div>
                         </div>

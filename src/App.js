@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from './component/Header';
 import Footer from './component/Footer';
+import ScrollToTop from './component/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -18,6 +17,7 @@ function App() {
   
       <BrowserRouter>
       <AuthProvider>
+      <ScrollToTop />
       <Header/>
       <Routes>
         <Route path="/" element = {<Home/>}/>

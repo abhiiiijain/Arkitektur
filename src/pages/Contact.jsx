@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom'
 import axios from "axios"
 const Contact = () => {
     const [formdata,setFormdata]=useState({
@@ -36,8 +37,8 @@ const Onhandleform=(e)=>{
             <h1 className="display-1 text-white animated slideInDown">Contact Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol className="breadcrumb text-uppercase mb-0">
-                    <li className="breadcrumb-item"><a className="text-white" href="#">Home</a></li>
-                    <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
+                    <li className="breadcrumb-item"><Link className="text-white" to="/">Home</Link></li>
+                    <li className="breadcrumb-item text-white">Pages</li>
                     <li className="breadcrumb-item text-primary active" aria-current="page">Contact Us</li>
                 </ol>
             </nav>

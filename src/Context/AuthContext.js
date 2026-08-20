@@ -15,7 +15,7 @@ export default function AuthProvider(props) {
         url:"http://localhost:3001/loginnow",
         data:formdata
     }).then((res)=>{
-        if(res.data.status="success"){
+        if(res.data.status==="success"){
           console.log(res.data)
           setUserToken(res.data.token)
           sessionStorage.setItem("token", res.data.token);

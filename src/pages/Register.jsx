@@ -1,5 +1,5 @@
 import {useState,useContext} from 'react'
-import axios from 'axios';
+import { Link } from 'react-router-dom'
 import { AuthContext } from '../Context/AuthContext';
 export default function Register() {
 
@@ -35,8 +35,8 @@ const Onhandleform=(e)=>{
             <h1 className="display-2 text-white mb-4 animated slideInDown">New User Registration</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol className="breadcrumb justify-content-center mb-0">
-                    <li className="breadcrumb-item"><a href="#">Home</a></li>
-                    <li className="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                    <li className="breadcrumb-item">Pages</li>
                     <li className="breadcrumb-item text-primary" aria-current="page">Registration</li>
                 </ol>
             </nav>
